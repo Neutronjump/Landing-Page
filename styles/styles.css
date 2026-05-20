@@ -1,3 +1,5 @@
+/* General Styling */
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0px;
@@ -10,6 +12,8 @@ body {
 .column {
     flex-direction: column;
 }
+
+/* Header + Hero Styling */
 
 .header {
     background-color: #1F2937;
@@ -55,6 +59,9 @@ body {
     margin: 0px;
 }
 
+.hero p {
+    margin-bottom: 16px;
+}
 .logo {
     font-size: 24px;
 }
@@ -63,6 +70,49 @@ body {
     font-weight: 900;
     color: #F9FAF8;
 }
+
+/* Information Tab Styling */
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.icons {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icons .container {
+    align-items: center;
+    flex: 0 0 140px;
+}
+
+.icons .container .icon {
+     border: #3882F6 solid 4px;
+     border-radius: 32px;
+     padding: 16px
+}
+
+.information {
+    align-items: space-between;
+    gap: 46px;
+    padding: 32px 128px 128px;
+}
+
+.information h2 {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.icons .container p {
+    font-size: 18px;
+    text-align: center;
+    color: #1F2937
+}
+/* General Styling */
 
 button a {
     color: white;

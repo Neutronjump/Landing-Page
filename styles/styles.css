@@ -112,6 +112,30 @@ body {
     text-align: center;
     color: #1F2937
 }
+
+/* Quote Tab Styling */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 32px 128px;
+    align-items: center;
+    padding: 128px 256px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 0px;
+    font-style: italic;
+    max-width: 1024px;
+}
+
+.quote h2 {
+    margin: 0px;
+    align-self: flex-end;
+}
+
 /* General Styling */
 
 button a {
